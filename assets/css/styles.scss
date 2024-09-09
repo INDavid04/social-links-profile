@@ -23,5 +23,6 @@ body { margin: 0; background-color: var(--grey900); color: var(--white); font-fa
             .Links a { display: block; border-radius: 0.3rem; padding: 0.8rem; background-color: var(--grey700); color: var(--white); font-weight: bold; text-decoration: none; }
             .Links a:focus, .Links a:hover { background-color: var(--green); color: var(--grey900); }
 
-.attribution { margin-top: -3rem; text-align: center; }
-    .attribution a { color: var(--green); }
+footer { margin-top: -4rem; text-align: center; font-size: 1.2rem; }
+    footer a { color: var(--green); }
+        footer a:focus, footer a:hover { text-decoration: none; }

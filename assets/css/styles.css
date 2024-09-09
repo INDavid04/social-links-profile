@@ -72,11 +72,16 @@ q {
   color: var(--grey900);
 }
 
-.attribution {
-  margin-top: -3rem;
+footer {
+  margin-top: -4rem;
   text-align: center;
+  font-size: 1.2rem;
 }
 
-.attribution a {
+footer a {
   color: var(--green);
+}
+
+footer a:focus, footer a:hover {
+  text-decoration: none;
 }/*# sourceMappingURL=styles.css.map */
